@@ -131,7 +131,7 @@ function App() {
             <span>
               Built by{" "}
               <a
-                href="https://github.com/ankitsingh-dev"
+                href="https://github.com/AnkitSingh9933"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-indigo-400 hover:text-indigo-300 hover:underline"
