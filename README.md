@@ -16,6 +16,18 @@ Convert global exchange rates instantly with smooth bi-directional calculation a
 - 🟢 Live exchange rate pulse indicator
 - 🛡️ Safe fallback rates and empty string handling
 - 📱 Responsive design for mobile, tablet and desktop
+---
+
+## 🛠️ Work in Progress & Future Additions
+
+I am continuously improving this project as part of my React and frontend learning journey. More features and enhancements will be added in upcoming updates:
+
+- 📈 Historical charts to track currency trends over time
+- ⭐ Ability to save favorite currency pairs
+- 📴 Better offline caching support
+- 🧮 Multiple currency conversion at once
+
+*More updates and refinements coming soon!*
 
 ## 🛠️ Tech Stack
 
