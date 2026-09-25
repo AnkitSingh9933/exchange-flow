@@ -1,16 +1,64 @@
-# React + Vite
+# 💱 ExchangeFlow — Live Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and real-time currency converter built with React and Tailwind CSS.
+Convert global exchange rates instantly with smooth bi-directional calculation and custom hooks.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+(https://exchangeflow-anku.netlify.app)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔄 Bi-directional live currency conversion
+- ⚡ Real-time API rate fetching with custom hook
+- 🔁 Instant currency swap functionality
+- 🎨 Glassmorphism fintech dark theme UI
+- 🟢 Live exchange rate pulse indicator
+- 🛡️ Safe fallback rates and empty string handling
+- 📱 Responsive design for mobile, tablet and desktop
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Fetch API
+- Async/Await
+- Exchange Rate API
+- Vite
+
+## 🧠 Concepts Used
+
+- React State (`useState`)
+- Custom Hooks (`useCurrencyInfo`)
+- Component Reusability
+- Controlled Inputs & Directional State
+- Conditional Rendering
+- Dynamic Object Keys & Values
+- Fallback Logical Operators
+- CSS Flexbox
+- Glassmorphism & Backdrop Filters
+
+## 📁 Project Structure
+
+```text
+exchange-flow/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   └── InputBox.jsx
+│   │
+│   ├── hook/
+│   │   └── useCurrencyInfo.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
